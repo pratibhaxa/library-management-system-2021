@@ -1,0 +1,57 @@
+.left-header-component{
+    /* background-color: ; */
+    background-image: url('');
+    color: black;
+    height: 530px;
+    width: 230px;
+    position: fixed;
+    top: 80px;
+    font-size: 24px;
+    border-right: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.left-header-component .left-header-1{
+    position: fixed;
+    top: 142px;
+    font-weight: 500;
+}
+.left-header-component .left-header-1:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    width: 230px;
+}
+
+.left-header-component .left-header-2{
+    position: fixed;
+    top: 212px;
+    font-weight: 500;
+}
+.left-header-component .left-header-2:hover{
+    background-color: burlywood;
+    width: 230px;
+    cursor: pointer;
+}
+
+.left-header-component .left-header-3{
+    position: fixed;
+    top: 282px;
+    font-weight: 500;
+}
+.left-header-component .left-header-3:hover{
+    background-color: burlywood;
+    width: 230px;
+    cursor: pointer;
+}
+
+.left-header-component .left-header-4{
+    position: fixed;
+    top: 352px;
+    font-weight: 500;
+}
+.left-header-component .left-header-4:hover{
+    background-color: burlywood;
+    width: 230px;
+    cursor: pointer;
+}

@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Addbook from './Addbook';
+import Home from './Home';
+import Viewbook from './Viewbook';
+import Contact from './Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Route path='/home' component={Home} />
+      <Route path='/viewbook' component={Viewbook} />
+      <Route path='/addbook' component={Addbook} />
+      <Route path='/contact' component={Contact} />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

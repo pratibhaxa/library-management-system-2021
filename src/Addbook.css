@@ -1,0 +1,97 @@
+.form{
+    font-size: larger;
+    font-weight: bold;
+    /* border-style: solid;
+    border-width: 3px; */
+}
+
+.input{
+    height: 25px;
+}
+
+.input:hover{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.input:focus{
+    background-color: rgb(200, 255, 250);
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
+}
+
+.addbook-button{
+    background-color: turquoise;
+    border-style: none;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    height: 35px;
+    color: black;
+    /* font-size: large; */
+}
+
+.addbook-div{
+    padding-left: 43%;
+}
+
+.addbook-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: thistle;
+    font-size: large;
+    transition-duration: 0.8s;
+}
+
+.addbook-submit-action{
+    font-size: small;
+    color: crimson;
+    padding-left: 45%;
+}
+
+.addbook-table{
+    /* width: 700px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-detail-input-div{
+    background-color: thistle;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.issuer-detail-input-div{
+    background-color: thistle;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.book-issuer-table{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(248, 231, 248); */
+
+}
+
+.book-detail-input-header, .issuer-detail-input-header{
+    font-size: larger;
+
+}
+
+/* .issuer-detail-input-header{
+    font-size: larger;
+} */

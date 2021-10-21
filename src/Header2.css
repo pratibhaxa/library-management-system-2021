@@ -1,0 +1,51 @@
+.header-component{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: turquoise;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* .header-stick{
+    position: -webkit-sticky;
+    top: 0;
+} */
+
+.header-component-1{
+    padding-left: 35px;
+}
+.header-component-2{
+    padding-left: 35px;
+}
+.header-component-3{
+    padding-left: 35px;
+}
+.header-component-4{
+    padding-left: 35px;
+}
+
+.header-component-2{
+    padding-left: 35px;
+}
+.header-component-3{
+    padding-left: 35px;
+}
+.header-component-4{
+    padding-left: 35px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+.header-link:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.header-link:focus{
+    color: burlywood;
+    text-decoration: underline;
+}
