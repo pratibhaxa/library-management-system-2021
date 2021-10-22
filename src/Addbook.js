@@ -14,6 +14,11 @@ class Addbook extends Component{
             bookprice:null,
             bookauthorname:null,
             bookpublisheddate:null,
+            issuerid:null,
+            issuername:null,
+            issuerphonenumber:null,
+            issueraddress:null,
+            issuerdate:null,
             action:null
         }
     }
@@ -23,9 +28,14 @@ class Addbook extends Component{
             bookname:this.refs.BookName.value,
             bookprice:this.refs.BookPrice.value,
             bookauthorname:this.refs.BookAuthorName.value,
-            bookpublisheddate:this.refs.BookPublishedDate.value
+            bookpublisheddate:this.refs.BookPublishedDate.value,
+            issuerid:this.refs.IssuerId.value,
+            issuername:this.refs.IssuerName.value,
+            issuerphonenumber:this.refs.IssuerPhoneNumber.value,
+            issueraddress:this.refs.IssuerAddress.value,
+            issuerdate:this.refs.IssuerDate.value,
         }
-        axios.post('https://localhost:3001/addBook',bookObject)
+        axios.post('http://localhost:3001/addBook',bookObject)
             .then((response)=>{
                 console.log('response = '+JSON.stringify(response.data));
             })
@@ -38,7 +48,12 @@ class Addbook extends Component{
             bookprice:null,
             bookauthorname:null,
             bookpublisheddate:null,
-            action:'Book Added to Library'
+            issuerid:null,
+            issuername:null,
+            issuerphonenumber:null,
+            issueraddress:null,
+            issuerdate:null,
+            action:'Entered Details Added to Library'
         })
     }
     render(){
@@ -49,6 +64,7 @@ class Addbook extends Component{
 
                 <div className='book-issuer-table'>
                 <br/>
+                <form>
                 <table className='book-issuer-table'>
                     <tr>
                         <td>
@@ -75,12 +91,12 @@ class Addbook extends Component{
                                     <br/>
                                     <tr className='table1-tr'>
                                         <td>Enter Author Name : </td>
-                                        <td><input type='text' ref='BookAuthorName' placeholder='Author Name' className='input'/></td>
+                                        <td><input type='text' ref='BookAuthorName' placeholder='Author Name' className='input' required/></td>
                                     </tr>
                                     <br/>
                                     <tr className='table1-tr'>
                                         <td>Enter Published Date : </td>
-                                        <td><input type='date' ref='BookPublishedDate' placeholder='Published Date' className='input'/></td>
+                                        <td><input type='date' ref='BookPublishedDate' placeholder='Published Date' className='input' required/></td>
                                     </tr>
                                 </table>
                             </div>
@@ -94,33 +110,34 @@ class Addbook extends Component{
                                 <table className='issuer-detail-input-table'>
                                     <tr className='table2-tr'>
                                         <td>Enter the Issuer ID : </td>
-                                        <td><input type='text' ref='IssuerId' placeholder='Issuer ID' className='input'/></td>
+                                        <td><input type='text' ref='IssuerId' placeholder='Issuer ID' className='input' required/></td>
                                     </tr>
                                     <br/>
                                     <tr className='table2-tr'>
                                         <td>Enter Full Name : &nbsp;</td>
-                                        <td><input type='text' ref='IssuerName' placeholder='Issuer Name' className='input'/></td>
+                                        <td><input type='text' ref='IssuerName' placeholder='Issuer Name' className='input' required/></td>
                                     </tr>
                                     <br/>
                                     <tr className='table2-tr'>
                                         <td>Enter Phone Number : </td>
-                                        <td><input type='number' ref='IssuerPhoneNumber' placeholder='Phone Number' className='input'/></td>
+                                        <td><input type='number' ref='IssuerPhoneNumber' placeholder='Phone Number' className='input' required/></td>
                                     </tr>
                                     <br/>
                                     <tr className='table2-tr'>
                                         <td>Enter Issuer Address : </td>
-                                        <td><textarea type='text' ref='IssuerAddress' placeholder='Issuer Address' className='input'/></td>
+                                        <td><textarea type='text' ref='IssuerAddress' placeholder='Issuer Address' className='input' required/></td>
                                     </tr>
                                     <br/>
                                     <tr className='table2-tr'>
                                         <td>Enter Issued Date : </td>
-                                        <td><input type='date' ref='IssuerDate' placeholder='Book Issued Date' className='input'/></td>
+                                        <td><input type='date' ref='IssuerDate' placeholder='Book Issued Date' className='input' required/></td>
                                     </tr>
                                 </table>
                             </div>
                         </td>
                     </tr>
                 </table>
+                </form>
 
                 <br/>
                 {/* SUBMIT BUTTON ACTION */}
@@ -129,7 +146,7 @@ class Addbook extends Component{
 
                 {/* SUBMIT BUTTON */}
                 <div className='addbook-div'>
-                    <button type='button' onClick={()=>this.addBook()} className='addbook-button'>Add Book to Library</button>
+                    <button type='submit' onClick={()=>this.addBook()} className='addbook-button'>Add Book to Library</button>
                 </div>
                 <br/><br/><br/>
 

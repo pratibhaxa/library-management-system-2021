@@ -7,15 +7,17 @@ import Addbook from './Addbook';
 import Home from './Home';
 import Viewbook from './Viewbook';
 import Contact from './Contact';
+import Example from './Example';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter>
       <Route path='/home' component={Home} />
       <Route path='/viewbook' component={Viewbook} />
       <Route path='/addbook' component={Addbook} />
       <Route path='/contact' component={Contact} />
-    </Router>
+      <Route path='/example' component={Example} />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
