@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/library-management-system-2021/static/css/main.402fca03.chunk.css",
-    "main.js": "/library-management-system-2021/static/js/main.20832c32.chunk.js",
-    "main.js.map": "/library-management-system-2021/static/js/main.20832c32.chunk.js.map",
-    "runtime-main.js": "/library-management-system-2021/static/js/runtime-main.ab7f09ae.js",
-    "runtime-main.js.map": "/library-management-system-2021/static/js/runtime-main.ab7f09ae.js.map",
-    "static/js/2.ea83a484.chunk.js": "/library-management-system-2021/static/js/2.ea83a484.chunk.js",
-    "static/js/2.ea83a484.chunk.js.map": "/library-management-system-2021/static/js/2.ea83a484.chunk.js.map",
-    "static/js/3.ce293dc5.chunk.js": "/library-management-system-2021/static/js/3.ce293dc5.chunk.js",
-    "static/js/3.ce293dc5.chunk.js.map": "/library-management-system-2021/static/js/3.ce293dc5.chunk.js.map",
-    "index.html": "/library-management-system-2021/index.html",
-    "static/css/main.402fca03.chunk.css.map": "/library-management-system-2021/static/css/main.402fca03.chunk.css.map",
-    "static/js/2.ea83a484.chunk.js.LICENSE.txt": "/library-management-system-2021/static/js/2.ea83a484.chunk.js.LICENSE.txt",
-    "static/media/lms_icon.83cbe718.jpeg": "/library-management-system-2021/static/media/lms_icon.83cbe718.jpeg"
+    "main.css": "/library-management-system-2021/home/static/css/main.402fca03.chunk.css",
+    "main.js": "/library-management-system-2021/home/static/js/main.20832c32.chunk.js",
+    "main.js.map": "/library-management-system-2021/home/static/js/main.20832c32.chunk.js.map",
+    "runtime-main.js": "/library-management-system-2021/home/static/js/runtime-main.fb189841.js",
+    "runtime-main.js.map": "/library-management-system-2021/home/static/js/runtime-main.fb189841.js.map",
+    "static/js/2.ea83a484.chunk.js": "/library-management-system-2021/home/static/js/2.ea83a484.chunk.js",
+    "static/js/2.ea83a484.chunk.js.map": "/library-management-system-2021/home/static/js/2.ea83a484.chunk.js.map",
+    "static/js/3.ce293dc5.chunk.js": "/library-management-system-2021/home/static/js/3.ce293dc5.chunk.js",
+    "static/js/3.ce293dc5.chunk.js.map": "/library-management-system-2021/home/static/js/3.ce293dc5.chunk.js.map",
+    "index.html": "/library-management-system-2021/home/index.html",
+    "static/css/main.402fca03.chunk.css.map": "/library-management-system-2021/home/static/css/main.402fca03.chunk.css.map",
+    "static/js/2.ea83a484.chunk.js.LICENSE.txt": "/library-management-system-2021/home/static/js/2.ea83a484.chunk.js.LICENSE.txt",
+    "static/media/lms_icon.83cbe718.jpeg": "/library-management-system-2021/home/static/media/lms_icon.83cbe718.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab7f09ae.js",
+    "static/js/runtime-main.fb189841.js",
     "static/js/2.ea83a484.chunk.js",
     "static/css/main.402fca03.chunk.css",
     "static/js/main.20832c32.chunk.js"
