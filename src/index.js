@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Addbook from './Addbook';
 import Home from './Home';
 import Viewbook from './Viewbook';
@@ -11,7 +12,7 @@ import Example from './Example';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/'>
       <Route path='/home' component={Home} />
       <Route path='/viewbook' component={Viewbook} />
       <Route path='/addbook' component={Addbook} />
